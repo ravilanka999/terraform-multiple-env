@@ -9,7 +9,7 @@ terraform {
   backend "s3" {
     bucket = "84s-remote-state"
     key    = "workspace-demo"
-    region = "us-east-1"
+    region = "<YOUR_AWS_REGION>"
     encrypt        = true
     use_lockfile = true
   }
